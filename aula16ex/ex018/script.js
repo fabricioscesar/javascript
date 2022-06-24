@@ -10,7 +10,7 @@ function isNumero(n) {//função para teste logico p ver se o n esta entre 1 a 1
         return false//retorno booleano falso(!= de 1 e 100)
     }
 }
-// o metodo indexOf() serve para recuperara posição inicial de um numero,se esse numero não estiver 
+// o metodo indexOf() serve para recuperar a posição inicial de um numero,se esse numero não estiver 
 //presente,ele retornará o valor -1
 function inLista(n , l) {
     if (l.indexOf(Number(n)) != -1) {//teste log para ver se a pos do num retorna valor existente
